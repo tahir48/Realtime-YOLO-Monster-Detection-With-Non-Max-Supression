@@ -19,3 +19,11 @@ This repository contains detection of 6 monsters, "Zombie","Armored","Immolator"
 
 ![Zombie](detectedzombie.jpg)
 
+![Zombie And Hive](detectedzombieandhive.jpg)
+
+![Hellhound](detectedhellhound.jpg)
+
+![Crowl](detectedcrowl.jpg)
+
+![Armored](detectedarmored.jpg)
+
