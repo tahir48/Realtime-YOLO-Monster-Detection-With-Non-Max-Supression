@@ -1,7 +1,5 @@
 # Realtime-YOLO-Monster-Detection-With-Non-Maximum-Supression
-This repository contains detection of 6 monsters, "Zombie","Armored","Immolator","Crowl","Hive","Hellhound" on Crytek game Hunt Showdown.
 
-The reason I work on this game is that, I really enjoy playing this game (Even if i have chance to play only 4,5 hours a week) and I admire developers and designers of this game. This game has a philosophy, not realy that straightforward as if it is only kill hunters, take the reward and go to the exit.
 
 ## Table of Contents
 1. Introduction
@@ -15,7 +13,9 @@ The reason I work on this game is that, I really enjoy playing this game (Even i
 
 ### 1. Introduction
 
+This repository contains detection of 6 monsters, "Zombie","Armored","Immolator","Crowl","Hive","Hellhound" on Crytek a game called Hunt Showdown.
 
+The reason I work on this game is that, I really enjoy playing this game (Even if i have chance to play only 4,5 hours a week) and I admire developers and designers of this game. This game has a philosophy, not realy that straightforward as if it is only kill hunters, take the reward and go to the exit.
 
 
 ### 2. Correctly Classified Samples
