@@ -4,10 +4,10 @@ This repository contains detection of 6 monsters, "Zombie","Armored","Immolator"
 The reason I work on this game is that, I really enjoy playing this game (Even if i have chance to play only 4,5 hours a week) and I admire developers and designers of this game. This game has a philosophy, not realy that straightforward as if it is only kill hunters, take the reward and go to the exit.
 
 ## Table of Contents
-* 1. Introduction
-* 2. Corretly Classified Samples
-* 3. Misclassified Samples
-* 4. Final Remarks
+1. Introduction
+2. Some of the Corretly Classified Samples
+3. Some of the Misclassified Samples
+4. Final Remarks
 
 
 
