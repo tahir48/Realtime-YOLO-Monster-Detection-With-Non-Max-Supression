@@ -1,8 +1,7 @@
 # Realtime-YOLO-Monster-Detection-With-Non-Maximum-Supression
-This repository contains detection of 6 monsters, "Zombie","Armored","Immolator","Crowl","Hive","Hellhound" on Crytek game Hunt Showdown. The reason I work on this game is that, I really enjoy playing this game (Even if i have chance to play only 4,5 hours a week) and I think developers and designers of this game are pretty clever. Furthermore, this game has a philosophy, not realy that straightforward as if it is only kill hunters, take the reward and go to exit.
-The model is trained with 250 Images and tested with 70 images. Data was obviously imbalanced, since I have been only able to gather 10,15 immolator images. 
-The reason I didn't really keen on gathering more images and create a good model is that, It really requires greate computational cost to process Images. Besides training model, also working on it real time have been exhausting for my PC.
+This repository contains detection of 6 monsters, "Zombie","Armored","Immolator","Crowl","Hive","Hellhound" on Crytek game Hunt Showdown.
 
+The reason I work on this game is that, I really enjoy playing this game (Even if i have chance to play only 4,5 hours a week) and I admire developers and designers of this game. This game has a philosophy, not realy that straightforward as if it is only kill hunters, take the reward and go to the exit.
 
 ## Table of Contents
 * 1. Introduction
@@ -41,4 +40,8 @@ The reason I didn't really keen on gathering more images and create a good model
 
 
 ### 4. Final Remarks
+This model did not work great, obviously. The first reason is that, it is not trained with sufficient amount of data: Besides training the model, also working with a trained model on realtime is really exhaustive since it is working purely on images. 
 
+The second reason is that, the data was imbalanced: Eventhough there exists 6 labels, Zombie images constitutes almost %30 of all the images and really less images gathered for immolator label.
+
+The third reason is that, some images were gathered on daylight, some images were from darker light. Even if no images was made on night map both for trainig or testing, due to nature of the game, the illumination of the game still varies. To avoid this, more images are needed for training.
