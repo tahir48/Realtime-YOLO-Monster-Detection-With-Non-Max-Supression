@@ -9,3 +9,13 @@ This repository contains detection of 6 monsters, "Zombie","Armored","Immolator"
 
 
 
+
+### 1. Introduction
+
+
+
+
+### 2. Correctly Classified Samples
+
+![Zombie](detectedzombie.jpg)
+
