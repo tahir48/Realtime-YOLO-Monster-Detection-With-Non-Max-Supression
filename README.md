@@ -3,22 +3,29 @@
 
 ## Table of Contents
 1. Introduction
-2. Some of the Corretly Classified Samples
-3. Some of the Misclassified Samples
-4. Final Remarks
-
-
-
+2. Requirements
+3. Some of the Corretly Classified Samples
+4. Some of the Misclassified Samples
+5. Final Remarks
 
 
 ### 1. Introduction
 
-This repository contains detection of 6 monsters, "Zombie","Armored","Immolator","Crowl","Hive","Hellhound" on Crytek a game called Hunt Showdown.
+This repository contains detection of 6 monsters, "Zombie","Armored","Immolator","Crowl","Hive","Hellhound" on a Crytek game called Hunt Showdown.
 
-The reason I work on this game is that, I really enjoy playing this game (Even if i have chance to play only 4,5 hours a week) and I admire developers and designers of this game. This game has a philosophy, not realy that straightforward as if it is only kill hunters, take the reward and go to the exit.
+The reason I work on this game is that, I really enjoy playing this game (Even if i don't really have chance to play so often), also I admire developers and designers of this game. This game has a philosophy, not realy that straight forward as if it is only kill hunters, take the reward and go to the exit.
+
+The code is design to test on youtube videos since both it is real time and easy to test.
+
+### 2. Requirements
+opencv-python, numpy, and pafy modules are required. If you don't have
+1. pip install numpy
+2. pip install opencv-python
+3. pip install pafy
+helps.
 
 
-### 2. Correctly Classified Samples
+### 3. Some of the Correctly Classified Samples
 
 ![Zombie](detectedzombie.jpg)
 
@@ -30,7 +37,7 @@ The reason I work on this game is that, I really enjoy playing this game (Even i
 
 ![Armored](detectedarmored.jpg)
 
-### 3. Misclassified Samples
+### 4. Some of the Misclassified Samples
 
 ![Misclassified Immolator](misclassifiedimmolator.jpg)
 
@@ -39,9 +46,8 @@ The reason I work on this game is that, I really enjoy playing this game (Even i
 ![Misclassified Crowl](misclassifiedcrowl.jpg)
 
 
-### 4. Final Remarks
-This model did not work great, obviously. The first reason is that, it is not trained with sufficient amount of data: Besides training the model, also working with a trained model on realtime is really exhaustive since it is working purely on images. 
-
-The second reason is that, the data was imbalanced: Eventhough there exists 6 labels, Zombie images constitutes almost %30 of all the images and really less images gathered for immolator label.
-
-The third reason is that, some images were gathered on daylight, some images were from darker light. Even if no images was made on night map both for trainig or testing, due to nature of the game, the illumination of the game still varies. To avoid this, more images are needed for training.
+### 5. Final Remarks
+The model does not perform well enough, since 250 images used for training and 70 for testing. 
+It needs to be fed with larger amount of data, especially for immolator label.
+But it is OK :)
+Enjoy !!
