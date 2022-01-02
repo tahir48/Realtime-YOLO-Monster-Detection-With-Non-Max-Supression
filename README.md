@@ -49,6 +49,10 @@ helps.
 
 ### 5. Final Remarks
 The model does not perform well enough, since 250 images used for training and 70 for testing. 
+
 It needs to be fed with larger amount of data, especially for immolator label.
+
 But it is OK :)
+
+
 Enjoy !!
